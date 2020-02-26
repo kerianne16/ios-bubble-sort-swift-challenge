@@ -1,16 +1,16 @@
 import UIKit
 
-func bubbleSort(){
-    
+func bubbleSort(_ array: [Int]) -> [Int] {
+      
 }
 
 
 // Test Cases
-//var arr1 = [1, 3, 6, 2, 4, 5]
-//var arr3 = [6, 5, 4, 3, 2, 1]
-//bubbleSort(&arr1) // returns [1, 2, 3, 4, 5, 6]
-//bubbleSort(&arr1, by: >) // returns [6, 5, 4, 3, 2, 1]
-//bubbleSort(&arr3) // returns [6, 5, 4, 3, 2, 1]
+var arr1 = [1, 3, 6, 2, 4, 5]
+var arr3 = [6, 5, 4, 3, 2, 1]
+bubbleSort(arr1) // returns [1, 2, 3, 4, 5, 6]
+//bubbleSort(arr1, by: >) // returns [6, 5, 4, 3, 2, 1]
+bubbleSort(arr3) // returns [6, 5, 4, 3, 2, 1]
 
 
 // Test Cases (Stretch Goal)
